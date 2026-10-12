@@ -27,7 +27,9 @@ no ground-truth labels exist, so no accuracy figure is claimed.
 
 | Latin-script handwritten paper page | Double-page spread with red rubrication |
 |---|---|
-| ![latin script page](docs/images/extra_test_latin_script.png) | ![double page spread](docs/images/extra_test_double_page_spread.png) |
+| ![latin script page](<img width="319" height="225" alt="download" src="https://github.com/user-attachments/assets/9040a241-af5a-4459-9097-c2c754d3ca2b" />
+) | ![double page spread](<img width="348" height="166" alt="download (1)" src="https://github.com/user-attachments/assets/5dfa301f-9157-4720-b4f1-16a9c384cdac" />
+) |
 | A different script and a darker, aged paper substrate. The body is found as `main_text`; a short block in the top-left margin is reported as `side_text` and a small mark above the first line as `filler`. | Two facing pages with red and black ink. The writing area is found as `main_text` (0.95). The two pages are returned as **one** box, and the folio number (bottom-left) and the decorative ornament (right edge) are not labelled - see Known limitations. |
 
 What these show: the detector is script-independent (geometry-based, never reads the characters), copes with aged,
