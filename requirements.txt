@@ -1,0 +1,6 @@
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10.0
+pytesseract>=0.3.10
+pytest>=7.4
+# System dependency (not pip): Tesseract OCR binary  ->  apt-get install tesseract-ocr   |   brew install tesseract

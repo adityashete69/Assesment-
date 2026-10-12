@@ -1,0 +1,47 @@
+{
+  "image": "sample_paper.png",
+  "width": 2047,
+  "height": 774,
+  "page_bbox": [
+    0,
+    0,
+    2046,
+    773
+  ],
+  "skew_deg": -0.5,
+  "predictions": [
+    {
+      "label": "main_text",
+      "bbox": [
+        206,
+        70,
+        2004,
+        719
+      ],
+      "confidence": 0.95,
+      "source": "block_geometry"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        587,
+        23,
+        1460,
+        57
+      ],
+      "confidence": 0.9425,
+      "source": "ocr_overlay"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        558,
+        722,
+        1488,
+        756
+      ],
+      "confidence": 0.9429,
+      "source": "ocr_overlay"
+    }
+  ]
+}

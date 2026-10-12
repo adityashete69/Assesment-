@@ -1,0 +1,80 @@
+{
+  "image": "demo_all_five_classes.png",
+  "width": 1500,
+  "height": 1100,
+  "page_bbox": [
+    0,
+    0,
+    1499,
+    1099
+  ],
+  "skew_deg": -0.5,
+  "predictions": [
+    {
+      "label": "header",
+      "bbox": [
+        546,
+        63,
+        928,
+        104
+      ],
+      "confidence": 0.8806,
+      "source": "block_geometry"
+    },
+    {
+      "label": "main_text",
+      "bbox": [
+        246,
+        230,
+        1251,
+        586
+      ],
+      "confidence": 0.9226,
+      "source": "block_geometry"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        55,
+        324,
+        212,
+        515
+      ],
+      "confidence": 0.9405,
+      "source": "block_geometry"
+    },
+    {
+      "label": "footer",
+      "bbox": [
+        696,
+        994,
+        948,
+        1024
+      ],
+      "confidence": 0.8756,
+      "source": "block_geometry"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        328,
+        17,
+        1156,
+        49
+      ],
+      "confidence": 0.94,
+      "source": "ocr_overlay"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        298,
+        1048,
+        1178,
+        1081
+      ],
+      "confidence": 0.9313,
+      "source": "ocr_overlay"
+    }
+  ]
+}

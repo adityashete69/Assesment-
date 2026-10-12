@@ -1,0 +1,112 @@
+{
+  "num_images": 2,
+  "num_failed": 0,
+  "results": [
+    {
+      "image": "sample_palm_leaf.png",
+      "width": 2048,
+      "height": 834,
+      "page_bbox": [
+        142,
+        78,
+        1779,
+        699
+      ],
+      "skew_deg": 1.5,
+      "predictions": [
+        {
+          "label": "main_text",
+          "bbox": [
+            316,
+            83,
+            1704,
+            671
+          ],
+          "confidence": 0.95,
+          "source": "block_geometry"
+        },
+        {
+          "label": "filler",
+          "bbox": [
+            575,
+            24,
+            1472,
+            59
+          ],
+          "confidence": 0.9375,
+          "source": "ocr_overlay"
+        },
+        {
+          "label": "filler",
+          "bbox": [
+            700,
+            369,
+            778,
+            429
+          ],
+          "confidence": 0.8582,
+          "source": "binding_hole"
+        },
+        {
+          "label": "filler",
+          "bbox": [
+            546,
+            779,
+            1500,
+            815
+          ],
+          "confidence": 0.9337,
+          "source": "ocr_overlay"
+        }
+      ]
+    },
+    {
+      "image": "sample_paper.png",
+      "width": 2047,
+      "height": 774,
+      "page_bbox": [
+        0,
+        0,
+        2046,
+        773
+      ],
+      "skew_deg": -0.5,
+      "predictions": [
+        {
+          "label": "main_text",
+          "bbox": [
+            206,
+            70,
+            2004,
+            719
+          ],
+          "confidence": 0.95,
+          "source": "block_geometry"
+        },
+        {
+          "label": "filler",
+          "bbox": [
+            587,
+            23,
+            1460,
+            57
+          ],
+          "confidence": 0.9425,
+          "source": "ocr_overlay"
+        },
+        {
+          "label": "filler",
+          "bbox": [
+            558,
+            722,
+            1488,
+            756
+          ],
+          "confidence": 0.9429,
+          "source": "ocr_overlay"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
